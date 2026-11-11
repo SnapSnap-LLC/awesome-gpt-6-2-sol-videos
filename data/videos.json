@@ -1,0 +1,21 @@
+{
+  "targetModel": "GPT-6.2 Sol",
+  "status": "prelaunch",
+  "videos": [],
+  "starterExamples": [
+    {
+      "id": "feature-reveal",
+      "title": "One Feature in 12 Seconds",
+      "creator": "SnapSnap-LLC",
+      "model": null,
+      "category": "Feature demo",
+      "engine": "HyperFrames",
+      "durationSeconds": 12,
+      "videoUrl": "https://github.com/SnapSnap-LLC/awesome-gpt-6-2-sol-videos/releases/download/starter-v1/feature-reveal.mp4",
+      "posterPath": "examples/feature-reveal/poster.png",
+      "promptPath": "prompts/feature-reveal.md",
+      "sourcePath": "examples/feature-reveal/index.html",
+      "skillPath": "skills/hyperframes-launch-teaser/SKILL.md"
+    }
+  ]
+}

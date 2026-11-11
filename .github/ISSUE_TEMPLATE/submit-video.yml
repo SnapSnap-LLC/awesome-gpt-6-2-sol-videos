@@ -1,0 +1,29 @@
+name: Submit a video
+description: Suggest a video for the GPT-6.2 Sol library after the official model release.
+title: "[Video] "
+body:
+  - type: input
+    id: video
+    attributes:
+      label: Video link
+      description: Link to a public video or playable demo.
+    validations:
+      required: true
+  - type: input
+    id: creator
+    attributes:
+      label: Creator and original post
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model evidence
+      description: Link to a creator statement or run record identifying GPT-6.2 Sol.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Prompt, tools and source
+      description: Share any public prompt, tool or editable source links. Mention whether previews or files may be republished.
